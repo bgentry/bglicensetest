@@ -1,11 +1,7 @@
-package main
+package bglicensetest
 
 import "fmt"
 
-func main() {
-	TestStuff()
-}
-
 func TestStuff() {
-	fmt.Println("test succeeded")
+	fmt.Println("From the main pkg")
 }
